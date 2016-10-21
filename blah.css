@@ -1,0 +1,44 @@
+body {
+  background-color: #222930;
+}
+
+.jumbotron {
+  margin: 25px;
+}
+
+.heading {
+  text-align: center;
+  border: solid blue;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+form {
+  background-color: #222930;
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.question {
+  padding: 15px;
+}
+
+.form-check {
+  padding-left: 10px;
+}
+
+#button {
+  display: block;
+  margin: auto;
+}
+
+.preview {
+  display: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 20px;
+}

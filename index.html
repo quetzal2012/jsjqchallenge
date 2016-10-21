@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Track Suggester</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="heading">
+          <h2>Track Suggester</h2>
+            <p>Fill out the survey and find the best track for you</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <form id="questions">
+<!--Question 1-->
+        <div class="form-group">
+          <h3>Do you like the idea of working for small businesses?</h3>
+          <div class="radio">
+              <label>
+                <input id=q1a1 type="radio" name="businessType" value="agree">
+               Yes, I want to work for a small business.
+              </label>
+              </div>
+              <label>
+              <div class="radio">
+               <input id=q1a2 type="radio" name="businessType" value="disagree">
+               No, I want to work for large businesses.
+             </label>
+           </div>
+         </div>
+
+<!--Question 2-->
+        <div class="form-group">
+          <h3>Are you interested on coding in a language developed by a large company?</h3>
+          <div class="radio">
+              <label>
+                <input id="q2a1" type="radio" name="codingType" value="agree">
+                Yes, I am.
+              </label>
+              </div>
+              <label>
+              <div class="radio">
+              <label>
+                <input id="q2a2" type="radio" name="codingType" value="disagree">
+                No, I'm not.
+              </label>
+          </div>
+        </div>
+
+<!--Question 3-->
+
+    <div class="form-group">
+      <h3>Are you more interested in front-end than back end programming?</h3>
+        <div class="radio">
+          <label>
+            <input id="q3a1" type="radio" name="endType" value="agree">Front-end
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="q3a2" type="radio" name="endType" value="disagree">Back-end
+          </label>
+        </div>
+      </div>
+
+
+<!--Question 4-->
+    <div class="form-group">
+      <h3>Would you only be interested in working on the web?</h3>
+        <div class="radio">
+          <label>
+            <input id="q4a1" type="radio" name=webType value="agree">Yes!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="q4a1" type="radio" name=webType value="disagree">No!
+          </label>
+        </div>
+      </div>
+<!--Question 5-->
+
+    <div class="form-group">
+      <h3>Does interactivity appeal to you or content?</h3>
+        <div class="radio">
+          <label>
+            <input id="q5a1" type="radio" name=interType value="agree">Interactivity.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="q5a2" type="radio" name=interType value"disagree">Content.
+          </label>
+        </div>
+      </div>
+
+    <button class ="btn btn-default" type="submit">Submit</button>
+  </form>
+      <div class="result">
+      </div>
+  </body>
+</html>
