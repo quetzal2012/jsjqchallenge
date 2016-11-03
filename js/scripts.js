@@ -15,7 +15,7 @@ $(document).ready(function() {
     var codingType = $("input:radio[name=codingType]:checked").val();
     var endType = $("input:radio[name=endType]:checked").val();
     var webType = $("input:radio[name=webType]:checked").val();
-    var interType = $("input:radio[name=interType]:checked)".val());
+    var interType = $("input:radio[name=interType]:checked)".val();
 
 
 
@@ -61,18 +61,18 @@ $(document).ready(function() {
 
 
   if (tracker === middle) {
-    $(".result").text("You should take any track");
+    $("#result").show().text("You should take any track");
   }
-  else if (tracker < -2) {
-    $(".result").text("You should take " + rubyRails + ".");
+  else if (tracker < -1) {
+    $("#result").show().text("You should take " + rubyRails + ".");
   }
-  else if (tracker > 2) {
-    $(".result").text("You should take " + css + ".");
+  else if (tracker > 1) {
+    $("#result").show().text("You should take " + css + ".");
   }
   else
-    $(".result").text("You should take " + cSharp "."));
-
-
+    $("#result").show().text("You should take " + cSharp ".");
+}
+event.preventDefault();
 
 });
 });
