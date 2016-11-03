@@ -69,11 +69,11 @@ $(document).ready(function() {
   else if (tracker > 1) {
     $("#result").show().text("You should take " + css + ".");
   }
-  else
+  else {
     $("#result").show().text("You should take " + cSharp + ".");
-
-
+  }
+    
 });
 
 });
-});
+
