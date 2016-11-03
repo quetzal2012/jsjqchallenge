@@ -71,8 +71,9 @@ $(document).ready(function() {
   }
   else
     $("#result").show().text("You should take " + cSharp + ".");
-}
-event.preventDefault();
+
+
+});
 
 });
 });
