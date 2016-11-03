@@ -70,7 +70,7 @@ $(document).ready(function() {
     $("#result").show().text("You should take " + css + ".");
   }
   else
-    $("#result").show().text("You should take " + cSharp ".");
+    $("#result").show().text("You should take " + cSharp + ".");
 }
 event.preventDefault();
 
