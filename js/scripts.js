@@ -15,7 +15,7 @@ $(document).ready(function() {
     var codingType = $("input:radio[name=codingType]:checked").val();
     var endType = $("input:radio[name=endType]:checked").val();
     var webType = $("input:radio[name=webType]:checked").val();
-    var interType = $("input:radio[name=interType]:checked)".val();
+    var interType = $("input:radio[name=interType]:checked").val();
 
 
 
